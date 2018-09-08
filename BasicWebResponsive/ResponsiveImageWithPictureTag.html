@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Responsive Image</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #img1 {
+            width: 100%;
+        }
+
+        #img2 {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <picture>
+        <source srcset="./Images/extralarge.jpg" media="(min-width: 1000px)" >
+        <source srcset="./Images/large.jpg" media="(min-width: 800px)" >
+        <img src="./Images/medium.jpg">
+    </picture>
+    <br>
+    <br>
+    <h1>Responsive Image</h1>
+    
+</body>
+
+</html>

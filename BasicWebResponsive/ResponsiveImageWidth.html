@@ -7,13 +7,11 @@
     <title>Responsive Image</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        body{
+            background-color: #e3e3e3;
+        }
         #img1 {
             width: 100%;
-        }
-
-        #img2 {
-            max-width: 100%;
-            height: auto;
         }
     </style>
 </head>
@@ -22,16 +20,7 @@
     <img id="img1" src="./Images/background.jpg">
     <br>
     <br>
-    <img id="img2" src="./Images/background.jpg">
-    <br>
-    <br>
-    <picture>
-        <source srcset="./Images/extralarge.jpg" media="(min-width: 1000px)" >
-        <source srcset="./Images/large.jpg" media="(min-width: 800px)" >
-        <img src="./Images/medium.jpg">
-    </picture>
-
-    
+    <h1>Responsive Image</h1>
 </body>
 
 </html>
